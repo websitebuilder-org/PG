@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "persona": "E1",
+    "tone": "Professional, High-Contrast, Precision-First",
+    "theme_mode": "dark",
+    "design_principle": "Swiss & High-Contrast (Authority, Clarity, Truth) adapted for Creative Focus"
+  },
+  "typography": {
+    "headings": {
+      "family": "Manrope",
+      "weights": ["600", "800"],
+      "letter_spacing": "-0.02em",
+      "usage": "Page titles, Section headers"
+    },
+    "body": {
+      "family": "Inter",
+      "weights": ["400", "500"],
+      "usage": "General text, labels, form inputs"
+    },
+    "monospace": {
+      "family": "JetBrains Mono",
+      "weights": ["400"],
+      "usage": "Generated Prompts, JSON output, API Key input"
+    }
+  },
+  "colors": {
+    "base": {
+      "background": "#0A0A0A",
+      "surface": "#121212",
+      "surface_highlight": "#1E1E1E",
+      "border": "#333333"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "muted": "#52525B"
+    },
+    "brand": {
+      "primary": "#007AFF",
+      "primary_hover": "#0051A8",
+      "accent": "#FF3B30"
+    },
+    "functional": {
+      "success": "#34C759",
+      "warning": "#FFCC00",
+      "error": "#FF3B30",
+      "info": "#0A84FF"
+    },
+    "gradients": {
+      "subtle_glow": "radial-gradient(circle at center, rgba(0, 122, 255, 0.15) 0%, rgba(0, 0, 0, 0) 70%)"
+    }
+  },
+  "layout": {
+    "grid_system": {
+      "mode": "Mode B (High Density Grid)",
+      "columns": "grid-cols-1 md:grid-cols-12",
+      "gap": "gap-4 md:gap-6",
+      "padding": "p-4 md:p-8"
+    },
+    "spacing": {
+      "container_padding": "p-6 md:p-8",
+      "section_gap": "gap-8"
+    },
+    "containers": {
+      "card_style": "bg-[#121212] border border-[#333] rounded-lg shadow-sm hover:border-[#555] transition-colors duration-200",
+      "dashboard_panel": "h-full flex flex-col bg-[#0A0A0A] border-r border-[#333]"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#007AFF] text-white hover:bg-[#0051A8] rounded-md font-medium px-6 py-2 transition-all shadow-[0_0_10px_rgba(0,122,255,0.3)]",
+      "secondary": "bg-[#1E1E1E] text-white border border-[#333] hover:bg-[#2A2A2A] rounded-md font-medium px-6 py-2 transition-all",
+      "icon": "p-2 rounded-full hover:bg-[#1E1E1E] text-white transition-colors"
+    },
+    "inputs": {
+      "default": "bg-[#0A0A0A] border border-[#333] text-white focus:border-[#007AFF] focus:ring-1 focus:ring-[#007AFF] rounded-md placeholder-gray-600 transition-all font-inter",
+      "code": "font-mono bg-[#050505] border border-[#222]"
+    },
+    "cards": {
+      "style_selector": "cursor-pointer group relative overflow-hidden rounded-xl border border-[#333] hover:border-[#007AFF] transition-all duration-300"
+    },
+    "generated_prompt_box": {
+      "container": "relative bg-[#111] border border-[#333] rounded-lg p-6 font-mono text-sm leading-relaxed text-gray-300 overflow-hidden",
+      "actions": "absolute top-2 right-2 flex gap-2"
+    }
+  },
+  "visual_enhancers": {
+    "micro_interactions": "All interactive elements must have hover/active states. Use `active:scale-95` for buttons.",
+    "borders": "1px solid #333333 is the primary structure definer.",
+    "shadows": "Minimal usage. Rely on border contrast. Use subtle glows for active states."
+  },
+  "image_urls": {
+    "style_thumbnails": {
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1694177038818-aa526243d2c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxtaWNyb3N0b2NrJTIwcGhvdG9ncmFwaHklMjBzdHVkaW98ZW58MHx8fHwxNzY5ODE3MDcwfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Microstock Photography Style"
+      },
+      "vector": {
+        "url": "https://images.unsplash.com/photo-1715528233539-5fe70a4e0d71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwzfHx2ZWN0b3IlMjBhcnQlMjBpbGx1c3RyYXRpb24lMjBmbGF0JTIwZGVzaWdufGVufDB8fHx8MTc2OTgxNzA3MXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Vector Art Style"
+      },
+      "illustration": {
+        "url": "https://images.unsplash.com/photo-1707999494560-f534cc79298c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwaWxsdXN0cmF0aW9uJTIwYXJ0JTIwY29uY2VwdHxlbnwwfHx8fDE3Njk4MTcwNzJ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Digital Illustration Style"
+      },
+      "logo": {
+        "url": "https://images.unsplash.com/photo-1760037028636-6f42428aeeee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwbG9nbyUyMGRlc2lnbiUyMGJyYW5kaW5nfGVufDB8fHx8MTc2OTgxNzA3M3ww&ixlib=rb-4.1.0&q=85",
+        "alt": "Logo Design Style"
+      }
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'Manrope' for all Headings and 'Inter' for body text. Use 'JetBrains Mono' for anything related to Prompts/Code/API Keys.",
+    "Implement a strict DARK MODE ONLY interface. Do not create a light mode toggle unless explicitly asked later.",
+    "The Dashboard must follow the 'Bento Grid Mode B' density. High information density, but clear hierarchy.",
+    "Use Shadcn components for complex interactions (Select, Dialog, Form) but styling MUST be overridden to match the 'Dark Swiss' aesthetic defined in colors.",
+    "Do NOT use 'Card' component everywhere. Use simple divs with borders for a cleaner, flatter look where appropriate.",
+    "For the 'Style Selector', use the provided images as backgrounds with a dark overlay that lightens on hover.",
+    "Ensure the 'Generate' button is the most prominent element on the screen (use Brand Primary color).",
+    "Add 'copy to clipboard' functionality with a toast notification (Sonner).",
+    "Add 'download txt' functionality.",
+    "File extensions are .js, so write React code compatible with standard JS (prop-types optional, no TS interfaces).",
+    "Install necessary icon libraries (@heroicons/react, lucide-react) if missing."
+  ],
+  "UNIVERSAL_GUIDELINES": {
+    "visuals": "No gradients for backgrounds. Use solid dark colors. Use borders for separation.",
+    "interaction": "Buttons should have a distinct hover state. Inputs should have a clear focus ring.",
+    "layout": "Avoid centering everything. Use left alignment for forms and text. Center only if it's a dedicated 'Hero' moment.",
+    "testing": "Add data-testid to all interactive elements."
+  }
+}

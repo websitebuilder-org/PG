@@ -1,0 +1,62 @@
+/* Dark Professional Dashboard Styles */
+
+.App {
+  min-height: 100vh;
+  background: #0A0A0A;
+  color: #FFFFFF;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Glow effect for primary button */
+.btn-primary-glow {
+  box-shadow: 0 0 20px rgba(0, 122, 255, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-primary-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 122, 255, 0.5);
+}
+
+/* Style selector card overlay */
+.style-card-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%);
+  transition: background 0.3s ease;
+}
+
+.style-card-overlay:hover {
+  background: linear-gradient(to top, rgba(0, 122, 255, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
